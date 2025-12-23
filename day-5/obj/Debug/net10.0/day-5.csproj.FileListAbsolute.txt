@@ -1,0 +1,14 @@
+K:\csharp\dot_net\day-5\bin\Debug\net10.0\day-5.exe
+K:\csharp\dot_net\day-5\bin\Debug\net10.0\day-5.deps.json
+K:\csharp\dot_net\day-5\bin\Debug\net10.0\day-5.runtimeconfig.json
+K:\csharp\dot_net\day-5\bin\Debug\net10.0\day-5.dll
+K:\csharp\dot_net\day-5\bin\Debug\net10.0\day-5.pdb
+K:\csharp\dot_net\day-5\obj\Debug\net10.0\day-5.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\day-5\obj\Debug\net10.0\day-5.AssemblyInfoInputs.cache
+K:\csharp\dot_net\day-5\obj\Debug\net10.0\day-5.AssemblyInfo.cs
+K:\csharp\dot_net\day-5\obj\Debug\net10.0\day-5.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\day-5\obj\Debug\net10.0\day-5.dll
+K:\csharp\dot_net\day-5\obj\Debug\net10.0\refint\day-5.dll
+K:\csharp\dot_net\day-5\obj\Debug\net10.0\day-5.pdb
+K:\csharp\dot_net\day-5\obj\Debug\net10.0\day-5.genruntimeconfig.cache
+K:\csharp\dot_net\day-5\obj\Debug\net10.0\ref\day-5.dll
