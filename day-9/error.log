@@ -8,3 +8,7 @@
 29-12-2025 15:30:29 | FileNotFoundException | Could not find file 'K:\csharp\dot_net\day-9\accoun.txt'.
 29-12-2025 15:30:42 | InsufficentBalanceException | Insufficent balance for withdraw.
 29-12-2025 15:31:27 | ArgumentException | Initial balance cannot be negative (Parameter 'initialBalance')
+Date & Time :30-12-2025 15:09:57
+Account No  :555
+Exception   :bankingsystem.InsufficentBalanceException: Insufficient balance to withdraw
+   at bankingsystem.BankAccount.Withdraw(Decimal amount) in K:\csharp\dot_net\Day-9\BankingSystem\BankingSystem.cs:line 50

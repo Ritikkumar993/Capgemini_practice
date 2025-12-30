@@ -38,6 +38,9 @@ catch (Exception ex)
 */
 
 
+namespace bankingsystem
+{
+    
 class Program
 {
     public static void Main()
@@ -45,47 +48,51 @@ class Program
         try
         {
             //User Input validation
-            Console.WriteLine("Enter the Withdraw amount");
-            decimal amount=decimal.Parse(Console.ReadLine());
+            // Console.WriteLine("Enter the Withdraw amount");
+            // decimal amount=decimal.Parse(Console.ReadLine());
 
-            //Arithemic Operation
-            int serviceCharge=100;
-            int devisorCheck=serviceCharge/int.Parse("1");
+            // //Arithemic Operation
+            // int serviceCharge=100;
+            // int devisorCheck=serviceCharge/int.Parse("1");
 
-            //File access
-            string data = File.ReadAllText("account.txt");
+            // //File access
+            // string data = File.ReadAllText("account.txt");
 
-            BankAccount account= new BankAccount(-10);
-            account.Withdraw(amount);
-
+            BankAccount account= new BankAccount("555",2000);
+            account.Withdraw(3000);
+            
             Console.WriteLine("Withdrawal is successfull");
 
 
 
         }
-        catch(FormatException ex)
+        // catch(FormatException ex)
+        // {
+        //     LogException(ex);
+        //     Console.WriteLine(ex.Message);
+        // }
+        // catch(DivideByZeroException ex)
+        // {
+        //     LogException(ex);
+        //     Console.WriteLine(ex.Message);
+        // }
+        catch (BankOperationException  ex)
         {
-            LogException(ex);
+            
             Console.WriteLine(ex.Message);
-        }
-        catch(DivideByZeroException ex)
-        {
-            LogException(ex);
-            Console.WriteLine(ex.Message);
-        }
-        catch (FileNotFoundException ex)
-        {
-            LogException(ex);
-            Console.WriteLine(ex.Message);
+            
+            Console.WriteLine("Root Cause:"+ex.InnerException.Message);
         }
         catch (InsufficientMemoryException ex)
         {
-            LogException(ex);
+            
             Console.WriteLine(ex.Message);
+            
+            Console.WriteLine("Root Cause:"+ex.InnerException.Message);
         }
         catch (Exception ex)
         {
-            LogException(ex);
+            // LogException(ex);
             Console.WriteLine(ex.Message);
         }
         finally
@@ -128,14 +135,15 @@ class Program
         // }
     }
 
-    static void LogException(Exception ex)
-    {
-        File.AppendAllText("error.log",
-            DateTime.Now+" | "+  ex.GetType().Name+" | "+ex.Message+Environment.NewLine
-        );
-    }
+    // static  void LogException(Exception ex)
+    // {
+    //     File.AppendAllText("error.log",
+    //         DateTime.Now+" | "+  ex.GetType().Name+" | "+ex.Message+Environment.NewLine
+    //     );
+    // }
 }
 
 
 
+}
 

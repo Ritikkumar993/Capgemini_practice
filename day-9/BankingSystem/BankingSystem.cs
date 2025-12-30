@@ -1,11 +1,17 @@
 namespace bankingsystem
 {
 
-    class InsufficentBalanceException : Exception
+    public class InsufficentBalanceException : Exception
     {
         public InsufficentBalanceException(string message):base(message){}
 
     }
+    public class BankOperationException : Exception
+    {
+        public BankOperationException(string message,Exception inner):base(message,inner){}
+
+    }
+
     class BankAccount
     {
         public string AccountNumber{get;private set;}
@@ -16,11 +22,11 @@ namespace bankingsystem
             // Validate that the account number is not null, empty, or whitespace.
             if( string.IsNullOrWhiteSpace(accountNumber))
             {
-                throw new ArgumentException("Account number is not null, empty, or whitespace.", nameof(accountNumber));
+                throw new ArgumentException("Account number is not null, empty, or whitespace.");
             }
             if (initialBalance < 0)
             {
-                throw new ArgumentOutOfRangeException(nameof(initialBalance),"Initial Balance can't be negative");
+                throw new ArgumentException("Initial Balance can't be negative");
             }
 
             AccountNumber=accountNumber;
@@ -30,14 +36,14 @@ namespace bankingsystem
 
         public void Withdraw(decimal amount)
         {
-            if (amount <= 0)
-            {
-                throw new ArgumentOutOfRangeException("withdrawal amount is greater than zero");
-            }
 
             try
             {
                 
+                if (amount <= 0)
+                {
+                    throw new ArgumentException("withdrawal amount is greater than zero");
+                }
 
                 if(Balance < amount)
                 {
@@ -49,10 +55,25 @@ namespace bankingsystem
             }
             catch (InsufficentBalanceException ex)
             {
-                
+                LogException(ex);
+                throw;
+            }
+            catch(Exception ex)
+            {
+                LogException(ex);
+                throw new BankOperationException("Unexpected error during withdrawal.", ex);
             }
         }
         
+        private void LogException(Exception ex)
+        {
+            File.AppendAllText(
+                "error.log",
+                "Date & Time :"+DateTime.Now+Environment.NewLine+
+                "Account No  :"+AccountNumber + Environment.NewLine+
+                "Exception   :"+ex.ToString()+Environment.NewLine
+            );
+        }
         
     }
 }
