@@ -1,0 +1,10 @@
+29-12-2025 13:04:01 | DivideByZeroException | Attempted to divide by zero.
+29-12-2025 14:18:03 | InsufficentBalanceException | Insufficent balance for withdraw.
+29-12-2025 14:19:38 | InsufficentBalanceException | Insufficent balance for withdraw.
+29-12-2025 14:19:59 | FileNotFoundException | Could not find file 'K:\csharp\dot_net\day-9\accoun.txt'.
+29-12-2025 14:21:35 | FormatException | The input string '10n' was not in a correct format.
+29-12-2025 14:21:56 | FormatException | The input string '' was not in a correct format.
+29-12-2025 15:30:21 | FileNotFoundException | Could not find file 'K:\csharp\dot_net\day-9\accoun.txt'.
+29-12-2025 15:30:29 | FileNotFoundException | Could not find file 'K:\csharp\dot_net\day-9\accoun.txt'.
+29-12-2025 15:30:42 | InsufficentBalanceException | Insufficent balance for withdraw.
+29-12-2025 15:31:27 | ArgumentException | Initial balance cannot be negative (Parameter 'initialBalance')

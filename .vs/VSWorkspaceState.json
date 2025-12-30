@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\day-6"
+    "\\day-7",
+    "\\day-8",
+    "\\QuickMartTraders"
   ],
-  "SelectedNode": "\\day-6\\Program.cs",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }

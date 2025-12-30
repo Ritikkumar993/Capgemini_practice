@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\csharp\\dot_net\\day-7\\day-7.csproj": {}
+    "K:\\csharp\\dot_net\\Day-7\\day-7.csproj": {}
   },
   "projects": {
-    "K:\\csharp\\dot_net\\day-7\\day-7.csproj": {
+    "K:\\csharp\\dot_net\\Day-7\\day-7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\csharp\\dot_net\\day-7\\day-7.csproj",
+        "projectUniqueName": "K:\\csharp\\dot_net\\Day-7\\day-7.csproj",
         "projectName": "day-7",
-        "projectPath": "K:\\csharp\\dot_net\\day-7\\day-7.csproj",
+        "projectPath": "K:\\csharp\\dot_net\\Day-7\\day-7.csproj",
         "packagesPath": "C:\\Users\\Ritik kumar\\.nuget\\packages\\",
-        "outputPath": "K:\\csharp\\dot_net\\day-7\\obj\\",
+        "outputPath": "K:\\csharp\\dot_net\\Day-7\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

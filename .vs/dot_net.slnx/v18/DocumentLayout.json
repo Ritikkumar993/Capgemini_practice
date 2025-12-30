@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "K:\\csharp\\dot_net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|K:\\csharp\\dot_net\\day-6\\Assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:day-6\\Assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|K:\\csharp\\dot_net\\day-6\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:day-6\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|K:\\csharp\\dot_net\\QuickMartTraders\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuickMartTraders\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,34 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "K:\\csharp\\dot_net\\day-6\\Program.cs",
-              "RelativeDocumentMoniker": "day-6\\Program.cs",
-              "ToolTip": "K:\\csharp\\dot_net\\day-6\\Program.cs",
-              "RelativeToolTip": "day-6\\Program.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T03:59:37.42Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Assignment.cs",
-              "DocumentMoniker": "K:\\csharp\\dot_net\\day-6\\Assignment.cs",
-              "RelativeDocumentMoniker": "day-6\\Assignment.cs",
-              "ToolTip": "K:\\csharp\\dot_net\\day-6\\Assignment.cs",
-              "RelativeToolTip": "day-6\\Assignment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\QuickMartTraders\\Program.cs",
+              "RelativeDocumentMoniker": "QuickMartTraders\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\QuickMartTraders\\Program.cs",
+              "RelativeToolTip": "QuickMartTraders\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T09:06:40.031Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-12-29T10:30:37.332Z",
               "EditorCaption": ""
             }
           ]
